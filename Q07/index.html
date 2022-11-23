@@ -6,10 +6,107 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
     <title> Contatos </title>
 </head>
 
 <body>
+
+    <div class="container-fluid" id="navbar">
+        <nav class="navbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="https://play-lh.googleusercontent.com/fvhPW8dpGXM42Y-6aQU8Yl25L1l_mVgeoM-n08FxAkM7umAHkNs8wcs4MA49E67a7WVt"
+                        alt="Logo" width="35" height="35" class="d-inline-block align-text-top"> Contatos </a>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <form>
+                <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="nomeInput" placeholder="Nome">
+                    <label for="nomeInput"> Nome </label>
+                </div>
+                <div class="form-floating">
+                    <input type="text" class="form-control" id="numeroInput" placeholder="Número">
+                    <label for="numeroInput"> Número </label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-lg" class="btn btn-success" id="btn-salvar"> Salvar
+                </button>
+            </form>
+        </div>
+        <div class="container" id="table">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col"> # </th>
+                        <th scope="col"> Nome </th>
+                        <th scope="col"> Número </th>
+                        <th scope="col"> Ação </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row"> 1 </th>
+                        <td> Bixin </td>
+                        <td> +55 84 98002-8922 </td>
+                        <td>
+                            <button type="button" class="btn btn-primary"> Editar </button>
+                            <button type="button" class="btn btn-outline-danger"> Excluir </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"> 2 </th>
+                        <td> Bixano </td>
+                        <td> +55 84 98807-9329 </td>
+                        <td>
+                            <button type="button" class="btn btn-primary"> Editar </button>
+                            <button type="button" class="btn btn-outline-danger"> Excluir </button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row"> 3 </th>
+                        <td> Bixão </td>
+                        <td> +55 84 99459-3748 </td>
+                        <td>
+                            <button type="button" class="btn btn-primary"> Editar </button>
+                            <button type="button" class="btn btn-outline-danger"> Excluir </button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container-fluid">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
 
 </body>
 

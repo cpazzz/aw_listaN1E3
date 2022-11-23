@@ -1,5 +1,155 @@
 * {
     box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: #e9eef1;
+    height: 100%;
+}
+
+.container,
+.container-forms,
+#fildset-dados {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-logo {
+    margin: 5vh auto 5vh auto;
+}
+
+.container-forms {
+    background-color: #ffffff;
+    box-shadow: #8096be59 0px 5px 15px;
+    border-radius: 0.5rem;
+    padding: 0 2vh 0 2vh;
+    width: 50vh;
+}
+
+.title {
+    border-bottom: solid 1px #dddddd;
+    text-align: center;
+    padding: 1vh 0 2vh 0;
+    width: 100%;
+}
+
+.title>h3 {
+    color: #333333;
+    font-size: 1.5rem;
+}
+
+.title>span {
+    color: #6d6d6d;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+#fildset-dados {
+    width: 100%;
+    margin-top: 1.6vh;
+}
+
+#fildset-dados>input {
+    border: solid 1px #d1d1d1;
+    border-radius: 6px;
+    padding: 1%;
+    margin-bottom: 0.5vh;
+    height: 3vh;
+    width: 100%;
+}
+
+#fildset-nascimento,
+#fildset-genero {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#fildset-nascimento {
+    margin-top: 3vh;
+}
+
+#fildset-genero {
+    margin-top: 1vh;
+}
+
+#fildset-nascimento>legend,
+#fildset-genero>legend {
+    font-size: 0.8rem;
+    margin-bottom: 2px;
+}
+
+#fildset-nascimento>input,
+#fildset-genero>.fildset-genero-bg {
+    border: solid 1px #d1d1d1;
+    border-radius: 5px;
+    padding: 1%;
+    height: 3vh;
+    width: 30%;
+}
+
+.fildset-genero-bg {
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.fildset-genero-bg>label {
+    font-size: 1.8vh;
+    margin-left: 5px;
+}
+
+#termos {
+    color: #333333;
+    margin-top: 3vh;
+    font-size: 0.6rem;
+}
+
+#termos>p>a,
+#botoes>a {
+    color: #166fe5;
+    text-decoration: none;
+}
+
+#termos>p>a:hover,
+#botoes>a:hover {
+    text-decoration: underline;
+}
+
+#botoes {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3vh;
+    margin-top: 4vh;
+}
+
+#botoes>button {
+    background-color: #36a420;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 2vh;
+    padding: 1% 6% 1% 6%;
+    transition: 0.4s;
+}
+
+#botoes>button:hover {
+    background-color: #308d1d;
+    transition: 0.4s;
+}
+
+#botoes>a {
+    font-size: 0.8rem;
+    font-weight: 400;
 }

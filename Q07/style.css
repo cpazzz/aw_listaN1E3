@@ -1,5 +1,29 @@
 * {
     box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+body {
+    --bs-body-bg: #f7fbff;
+}
+
+#navbar {
+    box-shadow: #00000029 0px 1px 4px;
+    margin-bottom: 10vh;
+}
+
+#btn-salvar {
+    font-size: 1rem;
+    margin-top: 3vh;
+}
+
+.table {
+    margin-top: 8vh;
+}
+
+.pagination {
+    justify-content: center;
+    margin-top: 5vh;
 }
