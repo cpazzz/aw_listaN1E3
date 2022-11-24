@@ -1,5 +1,48 @@
 * {
     box-sizing: 0;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.categoria {
+    border-bottom: solid 2px #cccccc;
+}
+
+.categoria > td {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: right;
+    padding-top: 2%;
+}
+
+td {
+    text-align: center;
+    padding: 1%;
+    width: 15%;
+}
+
+td > img { 
+    margin-bottom: 2vh; 
+}
+
+td > h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5vh;
+}
+
+td > span {
+    background-color: #315fb3;
+    color: #ffffff;
+    padding: 2% 8% 2% 8% ;
+}
+
+.pagination {
+    justify-content: center;
+    margin-top: 5vh;
 }

@@ -5,11 +5,175 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="media/geek-icon-ligth.svg" type="image/x-icon" />
     <link rel="stylesheet" href="style.css">
-    <title> Softlar - Tudo em decoração </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title> O Geek </title>
 </head>
 
 <body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="media/geek-icon.svg" alt="Logo" width="50" height="50"
+                        class="d-inline-block align-text-top">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#"> Estoque </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Quem somos? </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Atendimento ao cliente </a>
+                        </li>
+                    </ul>
+                </div>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Procurando algo?">
+                    <button class="btn btn-outline-primary" type="submit"> Pesquisar </button>
+                </form>
+            </div>
+        </nav>
+
+        <table>
+            <tr class="categoria">
+                <td colspan="5"> Ação </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="media/produtos/god-of-war-ragnarok.webp" class="img-fluid" width="150" height="200"
+                        alt="god-of-war-ragnarok">
+                    <h3> God of War Ragnarok </h3>
+                    <span> R$9,99 </span>
+                </td>
+                <td>
+                    <img src="media/produtos/demons-souls-remake.jpg" class="img-fluid" width="150" height="200"
+                        alt="demons-souls-remake">
+                    <h3> Demon's Souls <br> Remake </h3>
+                    <span> R$9,99 </span>
+                </td>
+                <td>
+                    <img src="media/produtos/miles-morales.jpg" class="img-fluid" width="150" height="200"
+                        alt="banguela">
+                    <h3> Spider-Man <br> Miles Morales </h3>
+                    <span> R$9,99 </span>
+                <td>
+                    <img src="media/produtos/horizon-forbidden-west.jpg" class="img-fluid" width="150" height="200"
+                        alt="harry-potter">
+                    <h3> Horizon <br> Forbidden West </h3>
+                    <span> R$9,99 </span>
+                </td>
+                <td>
+                    <img src="media/produtos/the-last-of-us.jpg" class="img-fluid" width="150" height="200"
+                        alt="the-last-of-us">
+                    <h3> The Last of Us pt 2 </h3>
+                    <span> R$9,99 </span>
+                </td>
+            </tr>
+
+            <tr class="categoria">
+                <td colspan="5"> Aventura </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="media/produtos/kena.jpg" class="img-fluid" width="150" height="200" alt="kena">
+                    <h3> Kena Bridge <br> of Spirits </h3>
+                    <span> R$9,99 </span>
+                </td>
+                <td>
+                    <img src="media/produtos/sackboy.jpg" class="img-fluid" width="150" height="200" alt="sackboy">
+                    <h3> Sackboy: <br> A Big Adventure </h3>
+                    <span> R$9,99 </span>
+                </td>
+                <td>
+                    <img src="media/produtos/tsushima.jpg" class="img-fluid" width="150" height="200" alt="tsushima">
+                    <h3> Ghost <br> os Tsushima </h3>
+                    <span> R$9,99 </span>
+                <td>
+                    <img src="media/produtos/yakuza.jpg" class="img-fluid" width="150" height="200" alt="yakuza">
+                    <h3> Yakuza: <br> Like a Dragon </h3>
+                    <span> R$9,99 </span>
+                </td>
+                <td>
+                    <img src="media/produtos/immortal-fenyx-rising.webp" class="img-fluid" width="150" height="200"
+                        alt="immortal-fenyx-rising">
+                    <h3> Immortals <br> Fenyx Rising </h3>
+                    <span> R$9,99 </span>
+                </td>
+            </tr>
+
+            <tr class="categoria">
+                <td colspan="5"> Violência </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="media/produtos/devil-may-cry-5.png" class="img-fluid" width="150" height="200"
+                        alt="devil-may-cry-5">
+                    <h3> Devil My Cray 5: <br> Special Edition </h3>
+                    <span> R$9,99 </span>
+                </td>
+                <td>
+                    <img src="media/produtos/bloodborne.jpg" class="img-fluid" width="150" height="200"
+                        alt="bloodborne">
+                    <h3> Bloodborne </h3>
+                    <span> R$9,99 </span>
+                </td>
+                <td>
+                    <img src="media/produtos/doom-eternal.jpg" class="img-fluid" width="150" height="200"
+                        alt="banguela">
+                    <h3> DOOM Eternal </h3>
+                    <span> R$9,99 </span>
+                <td>
+                    <img src="media/produtos/god-of-war-ragnarok.webp" class="img-fluid" width="150" height="200"
+                        alt="god-of-war-ragnarok">
+                    <h3> God of War Ragnarok </h3>
+                    <span> R$9,99 </span>
+                </td>
+                <td>
+                    <img src="media/produtos/resident-evil-village.jpg" class="img-fluid" width="150" height="200"
+                        alt="resident-evil-village">
+                    <h3> Resident Evil <br> Village </h3>
+                    <span> R$9,99 </span>
+                </td>
+            </tr>
+        </table>
+        <div class="container-fluid">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
 
 </body>
 

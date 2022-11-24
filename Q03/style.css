@@ -1,5 +1,102 @@
 * {
-    box-sizing: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: #f0f3f5;
+}
+
+.container-nav {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #252525;
+    height: fit-content;
+    width: 100%;
+}
+
+.container-nav > nav {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    margin: 5vh;
+}
+
+#links {
+    margin-bottom: 2vh;
+}
+
+#links > a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 200;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    transition: 0.3s;
+}
+
+#links a.ativo,
+#links a:hover {
+    font-size: 1.2rem;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+.container-main > main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+}
+
+.offcanvas-body {
+    margin-left: 2vh;
+    width: 18%;
+}
+
+.container-table {
+    border-left: solid 1px #c5c5c5;
+    margin-right: 2vh;
+    padding-left: 2vh;
+    height: 70vh;
+    width: 98%;
+}
+
+.container-table > table {
+    width: 100%;
+}
+
+th {
+    background-color: #202020;
+    color: #ffffff;
+}
+
+td, th {
+    padding: 1vh 0.5vh;
+}
+
+.col {
+    font-weight: bold;
+    text-align: left;
+}
+
+.container-btn > button {
+    background-color: none;
+    border: solid 1px #dd4242;
+    color: #dd4242;
+    cursor: pointer;
+    margin-top: 3vh;
+    padding: 1vh 2vh;
+    transition: 0.3s;
+}
+
+.container-btn > button:hover {
+    background-color: #dd4242;
+    color: #ffffff;
+    transition: 0.3s;
 }
