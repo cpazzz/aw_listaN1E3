@@ -59,6 +59,7 @@ body {
     width: 18%;
 }
 
+
 .container-table {
     border-left: solid 1px #c5c5c5;
     margin-right: 2vh;
@@ -71,22 +72,21 @@ body {
     width: 100%;
 }
 
+.col {
+    text-align: left;
+}
+
 th {
     background-color: #202020;
     color: #ffffff;
 }
 
 td, th {
-    padding: 1vh 0.5vh;
-}
-
-.col {
-    font-weight: bold;
-    text-align: left;
+    padding: 1vh;
 }
 
 .container-btn > button {
-    background-color: none;
+    background-color: #ffffff;
     border: solid 1px #dd4242;
     color: #dd4242;
     cursor: pointer;
