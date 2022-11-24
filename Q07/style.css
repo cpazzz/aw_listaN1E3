@@ -1,17 +1,24 @@
 * {
     box-sizing: 0;
     font-family: 'Poppins', sans-serif;
+    font-weight: 300;
     margin: 0;
     padding: 0;
 }
 
 body {
-    --bs-body-bg: #f7fbff;
+    --bs-body-bg: #f3f3f3;
 }
 
-#navbar {
-    box-shadow: #00000029 0px 1px 4px;
-    margin-bottom: 10vh;
+.container-fluid {
+    width: 100%;
+}
+
+#container-navbar  {
+    background-color: #fafafa;
+    box-shadow: #63636354 0px 1px 10px;
+    padding: 1vh;
+    margin-bottom: 5vh;
 }
 
 #btn-salvar {
